@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkolivegreen;
+        }
+        header{
+            
+            padding: 10px;
+            margin: 0px;
+        }
+
+        nav{
+            background-color: rgb(234, 243, 243);
+            color: rgb(2, 2, 2);
+            padding: 3px;
+            box-shadow: 5px 4px 4px black;
+        }
+         
+
+         nav > a {
+            text-decoration: none;
+            color:rgb(10, 10, 10);
+            font-weight: bold;
+            margin-right: 20px;
+            background-color: dimgray;
+            border-radius: 5%;
+         }
+
+         nav > a:hover {
+            text-decoration: underline;
+            
+         }
+           
+
+
+         
+        main{
+            background-color: aliceblue;
+            padding:10px;
+            margin:10px;
+            border-radius: 15px;
+            box-shadow: 5px 4px 4px black;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;;
+        }
+        aside{
+            background-color: dimgray;
+            color: white;
+            text-align:right;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <h1>Meu Site</h1>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+     <section id="assuntos">
+
+     </section>
+     <section id="noticias">
+        <article>
+            <h2>Noticia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea facilis quas rem deleniti molestiae amet saepe laboriosam asperiores! Deserunt, voluptas autem maiores sequi atque sunt eveniet nisi vero beatae dicta?</p>
+            <aside>
+                <p>Artigo escrito por Diego</p>
+            </aside>
+        </article>
+     </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CURSOEMVIDEO</p>
+    </footer>
+</body>
+</html>
